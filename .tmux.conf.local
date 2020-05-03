@@ -1,3 +1,14 @@
+bind -n M-h select-pane -L
+bind -n M-l select-pane -R
+bind -n M-k select-pane -U
+bind -n M-j select-pane -D
+
+bind | split-window -h
+bind _ split-window -v
+
+bind -n S-Left previous-window
+bind -n S-Right next-window
+
 # https://github.com/gpakosz/.tmux
 # (‑●‑●)> dual licensed under the WTFPL v2 license and the MIT license,
 #         without any warranty.
